@@ -12,7 +12,6 @@
       --muted: #6b7280;
       --line: #e5e7eb;
       --accent: #2563eb;
-      --accent-soft: #eff6ff;
       --good: #065f46;
       --good-bg: #ecfdf5;
       --warn: #92400e;
@@ -22,9 +21,7 @@
       --shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
       --radius: 16px;
     }
-
     * { box-sizing: border-box; }
-
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
@@ -32,292 +29,97 @@
       color: var(--text);
       line-height: 1.55;
     }
-
     .container {
       width: min(1200px, calc(100vw - 32px));
       margin: 0 auto;
       padding: 32px 0 56px;
     }
-
     .hero, .panel, .metric-card {
       background: var(--panel);
       border: 1px solid var(--line);
       border-radius: var(--radius);
       box-shadow: var(--shadow);
     }
-
-    .hero {
-      padding: 28px;
-      margin-bottom: 20px;
-    }
-
-    h1 {
-      margin: 0 0 10px;
-      font-size: clamp(28px, 4vw, 40px);
-      line-height: 1.15;
-    }
-
-    h2 {
-      margin: 0 0 12px;
-      font-size: 22px;
-    }
-
-    h3 {
-      margin: 0;
-      font-size: 20px;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    .lead {
-      color: var(--muted);
-      max-width: 900px;
-    }
-
-    .hero-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 16px;
-    }
-
+    .hero { padding: 28px; margin-bottom: 20px; }
+    h1 { margin: 0 0 10px; font-size: clamp(28px, 4vw, 40px); line-height: 1.15; }
+    h3 { margin: 0; font-size: 20px; }
+    p { margin: 0; }
+    .lead { color: var(--muted); max-width: 900px; }
+    .hero-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
     .chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 6px 10px;
-      border-radius: 999px;
-      border: 1px solid var(--line);
-      background: #fff;
-      color: var(--muted);
-      font-size: 13px;
-      font-weight: 600;
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 6px 10px; border-radius: 999px; border: 1px solid var(--line);
+      background: #fff; color: var(--muted); font-size: 13px; font-weight: 600;
     }
-
-    .controls {
-      padding: 18px;
-      margin-bottom: 18px;
-    }
-
-    .controls-grid {
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr;
-      gap: 12px;
-    }
-
+    .controls { padding: 18px; margin-bottom: 18px; }
+    .controls-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 12px; }
     .field label {
-      display: block;
-      font-size: 13px;
-      color: var(--muted);
-      margin-bottom: 6px;
-      font-weight: 700;
+      display: block; font-size: 13px; color: var(--muted);
+      margin-bottom: 6px; font-weight: 700;
     }
-
-    .field input,
-    .field select {
-      width: 100%;
-      padding: 11px 12px;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      background: #fff;
-      color: var(--text);
-      font-size: 14px;
+    .field input, .field select {
+      width: 100%; padding: 11px 12px; border: 1px solid var(--line);
+      border-radius: 12px; background: #fff; color: var(--text); font-size: 14px;
     }
-
     .summary-bar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 16px;
-      margin: 18px 0 12px;
-      color: var(--muted);
-      font-size: 14px;
+      display: flex; justify-content: space-between; align-items: center;
+      gap: 16px; margin: 18px 0 12px; color: var(--muted); font-size: 14px;
     }
-
-    .metric-list {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-
-    .metric-card {
-      overflow: hidden;
-    }
-
+    .metric-list { display: flex; flex-direction: column; gap: 14px; }
+    .metric-card { overflow: hidden; }
     .metric-summary {
-      padding: 18px 20px;
-      display: grid;
+      padding: 18px 20px; display: grid;
       grid-template-columns: minmax(200px, 260px) 1fr auto;
-      gap: 18px;
-      align-items: center;
+      gap: 18px; align-items: center;
     }
-
-    .metric-name {
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-    }
-
-    .metric-subtitle {
-      color: var(--muted);
-      font-size: 13px;
-    }
-
+    .metric-name { display: flex; flex-direction: column; gap: 8px; }
+    .metric-subtitle { color: var(--muted); font-size: 13px; }
     .correlation-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(180px, 1fr));
-      gap: 10px;
+      display: grid; grid-template-columns: repeat(3, minmax(180px, 1fr)); gap: 10px;
     }
-
     .corr-box {
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 12px;
-      background: #fcfcfd;
+      border: 1px solid var(--line); border-radius: 14px; padding: 12px; background: #fcfcfd;
     }
-
-    .corr-title {
-      font-size: 13px;
-      font-weight: 700;
-      color: var(--muted);
-      margin-bottom: 8px;
-    }
-
-    .corr-values {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
-      font-size: 14px;
-    }
-
+    .corr-title { font-size: 13px; font-weight: 700; color: var(--muted); margin-bottom: 8px; }
+    .corr-values { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: 14px; }
     .corr-pill {
-      display: inline-block;
-      padding: 6px 8px;
-      border-radius: 10px;
-      font-weight: 700;
-      text-align: center;
-      border: 1px solid transparent;
+      display: inline-block; padding: 6px 8px; border-radius: 10px;
+      font-weight: 700; text-align: center; border: 1px solid transparent;
     }
-
     .corr-pos-strong { background: var(--good-bg); color: var(--good); }
     .corr-mid { background: var(--warn-bg); color: var(--warn); }
     .corr-neg-strong { background: var(--bad-bg); color: var(--bad); }
     .corr-neutral { background: #f3f4f6; color: #4b5563; }
-
     .toggle-btn {
-      border: none;
-      background: var(--accent);
-      color: #fff;
-      border-radius: 12px;
-      padding: 11px 14px;
-      font-size: 14px;
-      font-weight: 700;
-      cursor: pointer;
-      min-width: 128px;
+      border: none; background: var(--accent); color: #fff; border-radius: 12px;
+      padding: 11px 14px; font-size: 14px; font-weight: 700; cursor: pointer; min-width: 128px;
     }
-
-    .toggle-btn:hover { opacity: 0.92; }
-
     .metric-details {
-      display: none;
-      border-top: 1px solid var(--line);
-      padding: 0 20px 20px;
-      background: #fbfcff;
+      display: none; border-top: 1px solid var(--line); padding: 0 20px 20px; background: #fbfcff;
     }
-
-    .metric-card.open .metric-details {
-      display: block;
-    }
-
+    .metric-card.open .metric-details { display: block; }
     .details-grid {
-      display: grid;
-      grid-template-columns: 1.3fr 0.9fr;
-      gap: 18px;
-      margin-top: 18px;
+      display: grid; grid-template-columns: 1.3fr 0.9fr; gap: 18px; margin-top: 18px;
     }
-
     .subpanel {
-      background: #fff;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 16px;
+      background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 16px;
     }
-
-    .subpanel-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 12px;
-      margin-bottom: 12px;
-    }
-
-    .subpanel-title {
-      font-size: 16px;
-      font-weight: 700;
-    }
-
-    .subpanel-desc {
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .table-wrap {
-      overflow-x: auto;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      min-width: 460px;
-      background: #fff;
-    }
-
-    th, td {
-      padding: 10px 12px;
-      border-bottom: 1px solid var(--line);
-      font-size: 14px;
-    }
-
+    .subpanel-title { font-size: 16px; font-weight: 700; }
+    .subpanel-desc { color: var(--muted); font-size: 13px; margin-top: 2px; margin-bottom: 12px; }
+    .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; }
+    table { width: 100%; border-collapse: collapse; min-width: 460px; background: #fff; }
+    th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); font-size: 14px; }
     th {
-      background: #f9fafb;
-      text-align: left;
-      font-weight: 700;
-      white-space: nowrap;
+      background: #f9fafb; text-align: left; font-weight: 700; white-space: nowrap;
     }
-
-    td.num, th.num {
-      text-align: right;
-      font-variant-numeric: tabular-nums;
-    }
-
+    td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
     tr:last-child td { border-bottom: none; }
-
-    .footnote {
-      margin-top: 22px;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    .hidden { display: none !important; }
-
+    .footnote { margin-top: 22px; color: var(--muted); font-size: 13px; }
+    code { background: #f3f4f6; padding: 2px 6px; border-radius: 6px; }
     @media (max-width: 960px) {
-      .controls-grid,
-      .metric-summary,
-      .details-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .correlation-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .toggle-btn {
-        width: 100%;
-      }
+      .controls-grid, .metric-summary, .details-grid { grid-template-columns: 1fr; }
+      .correlation-grid { grid-template-columns: 1fr; }
+      .toggle-btn { width: 100%; }
     }
   </style>
 </head>
@@ -355,6 +157,7 @@
             <option value="attack_spearman_abs">Attack Spearman (absolute value)</option>
             <option value="release_spearman_abs">Release Spearman (absolute value)</option>
             <option value="overall_spearman_abs">Overall Spearman (absolute value)</option>
+            <option value="name">Metric name</option>
           </select>
         </div>
         <div class="field">
@@ -377,7 +180,8 @@
     <section id="metricList" class="metric-list"></section>
 
     <p class="footnote">
-      Notes: Speaker IDs are displayed without hyphens to avoid spreadsheet date conversion issues. This page loads the metric data from <code>data.json</code> in the same directory.
+      Notes: Speaker IDs are displayed without hyphens to avoid spreadsheet date conversion issues.
+      This page loads metric data from <code>data.json</code> in the same directory.
     </p>
   </div>
 
@@ -403,20 +207,25 @@
 
     function sortMetrics(data, sortKey) {
       const cloned = [...data];
+
       if (sortKey === 'version') {
         return cloned.sort((a, b) => {
-          const groupDiff = getGroupOrder(a.group) - getGroupOrder(b.group);
+          const groupDiff = (a.group || '').localeCompare(b.group || '', undefined, { numeric: true });
           if (groupDiff !== 0) return groupDiff;
-          return a.metricName.localeCompare(b.metricName);
+          return (a.groupOrder ?? 9999) - (b.groupOrder ?? 9999);
         });
+      }
+
+      if (sortKey === 'name') {
+        return cloned.sort((a, b) => a.metricName.localeCompare(b.metricName));
       }
 
       const [aspect, kind] = sortKey.split('_').slice(0, 2);
       const isAbs = sortKey.endsWith('_abs');
 
       return cloned.sort((a, b) => {
-        const av = a.correlations[aspect]?.[kind] ?? 0;
-        const bv = b.correlations[aspect]?.[kind] ?? 0;
+        const av = a.correlations?.[aspect]?.[kind] ?? 0;
+        const bv = b.correlations?.[aspect]?.[kind] ?? 0;
         const left = isAbs ? Math.abs(av) : av;
         const right = isAbs ? Math.abs(bv) : bv;
         return right - left;
@@ -465,12 +274,8 @@
           <div class="metric-details">
             <div class="details-grid">
               <section class="subpanel">
-                <div class="subpanel-header">
-                  <div>
-                    <div class="subpanel-title">Speaker-wise objective values</div>
-                    <div class="subpanel-desc">Objective values for each speaker and model.</div>
-                  </div>
-                </div>
+                <div class="subpanel-title">Speaker-wise objective values</div>
+                <div class="subpanel-desc">Objective values for each speaker and model.</div>
                 <div class="table-wrap">
                   <table>
                     <thead>
@@ -489,12 +294,8 @@
               </section>
 
               <section class="subpanel">
-                <div class="subpanel-header">
-                  <div>
-                    <div class="subpanel-title">Correlation with MOS</div>
-                    <div class="subpanel-desc">Pearson and Spearman coefficients for each MOS aspect.</div>
-                  </div>
-                </div>
+                <div class="subpanel-title">Correlation with MOS</div>
+                <div class="subpanel-desc">Pearson and Spearman coefficients for each MOS aspect.</div>
                 <div class="table-wrap">
                   <table>
                     <thead>
@@ -507,18 +308,18 @@
                     <tbody>
                       <tr>
                         <td>Attack</td>
-                        <td class="num">${formatNumber(metric.correlations.attack.pearson, 3)}</td>
-                        <td class="num">${formatNumber(metric.correlations.attack.spearman, 3)}</td>
+                        <td class="num">${formatNumber(metric.correlations.attack.pearson, 4)}</td>
+                        <td class="num">${formatNumber(metric.correlations.attack.spearman, 4)}</td>
                       </tr>
                       <tr>
                         <td>Release</td>
-                        <td class="num">${formatNumber(metric.correlations.release.pearson, 3)}</td>
-                        <td class="num">${formatNumber(metric.correlations.release.spearman, 3)}</td>
+                        <td class="num">${formatNumber(metric.correlations.release.pearson, 4)}</td>
+                        <td class="num">${formatNumber(metric.correlations.release.spearman, 4)}</td>
                       </tr>
                       <tr>
                         <td>Overall</td>
-                        <td class="num">${formatNumber(metric.correlations.overall.pearson, 3)}</td>
-                        <td class="num">${formatNumber(metric.correlations.overall.spearman, 3)}</td>
+                        <td class="num">${formatNumber(metric.correlations.overall.pearson, 4)}</td>
+                        <td class="num">${formatNumber(metric.correlations.overall.spearman, 4)}</td>
                       </tr>
                     </tbody>
                   </table>
@@ -554,22 +355,14 @@
       });
     }
 
-    [searchInput, sortSelect, metricGroupSelect].forEach(el => {
-      el.addEventListener('input', renderMetrics);
-      el.addEventListener('change', renderMetrics);
-    });
-
     async function loadData() {
       try {
-        const response = await fetch('./data.json', { cache: 'no-store' });
+        const response = await fetch('./data.json?ts=' + Date.now(), { cache: 'no-store' });
         if (!response.ok) {
           throw new Error(`Failed to load data.json: ${response.status}`);
         }
         metricsData = await response.json();
-        const metricCountChip = document.getElementById('metricCountChip');
-        if (metricCountChip) {
-          metricCountChip.textContent = `${metricsData.length} objective metrics`;
-        }
+        document.getElementById('metricCountChip').textContent = `${metricsData.length} objective metrics`;
         renderMetrics();
       } catch (error) {
         resultCount.textContent = 'Failed to load metrics data';
@@ -586,6 +379,11 @@
         console.error(error);
       }
     }
+
+    [searchInput, sortSelect, metricGroupSelect].forEach(el => {
+      el.addEventListener('input', renderMetrics);
+      el.addEventListener('change', renderMetrics);
+    });
 
     loadData();
   </script>
