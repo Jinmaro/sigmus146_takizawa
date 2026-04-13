@@ -348,7 +348,7 @@
         <div class="field">
           <label for="sortSelect">Sort by</label>
           <select id="sortSelect">
-            <option value="name">Metric name</option>
+            <option value="version">Version order</option>
             <option value="attack_pearson_abs">Attack Pearson (absolute value)</option>
             <option value="release_pearson_abs">Release Pearson (absolute value)</option>
             <option value="overall_pearson_abs">Overall Pearson (absolute value)</option>
@@ -403,8 +403,12 @@
 
     function sortMetrics(data, sortKey) {
       const cloned = [...data];
-      if (sortKey === 'name') {
-        return cloned.sort((a, b) => a.metricName.localeCompare(b.metricName));
+      if (sortKey === 'version') {
+        return cloned.sort((a, b) => {
+          const groupDiff = getGroupOrder(a.group) - getGroupOrder(b.group);
+          if (groupDiff !== 0) return groupDiff;
+          return a.metricName.localeCompare(b.metricName);
+        });
       }
 
       const [aspect, kind] = sortKey.split('_').slice(0, 2);
