@@ -1,0 +1,2510 @@
+[
+  {
+    "metricName": "env_corr",
+    "group": "V0",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.8723,
+        "tfoley": 0.7834,
+        "sa2": 0.8504
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.8092,
+        "tfoley": 0.6259,
+        "sa2": 0.8577
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.8337,
+        "tfoley": 0.7236,
+        "sa2": 0.7011
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.7963,
+        "tfoley": 0.7369,
+        "sa2": 0.836
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.8306,
+        "tfoley": 0.6669,
+        "sa2": 0.7947
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.8497,
+        "tfoley": 0.6605,
+        "sa2": 0.7682
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.6613,
+        "spearman": 0.6842
+      },
+      "release": {
+        "pearson": 0.7064,
+        "spearman": 0.7641
+      },
+      "overall": {
+        "pearson": 0.6777,
+        "spearman": 0.7548
+      }
+    }
+  },
+  {
+    "metricName": "mel_cos_mean",
+    "group": "V0",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.9741,
+        "tfoley": 0.9774,
+        "sa2": 0.9815
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.9714,
+        "tfoley": 0.9831,
+        "sa2": 0.9825
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.9654,
+        "tfoley": 0.9647,
+        "sa2": 0.9712
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.9746,
+        "tfoley": 0.9789,
+        "sa2": 0.9806
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.9753,
+        "tfoley": 0.9769,
+        "sa2": 0.9814
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.98,
+        "tfoley": 0.9857,
+        "sa2": 0.9826
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.1193,
+        "spearman": -0.0299
+      },
+      "release": {
+        "pearson": -0.0165,
+        "spearman": -0.1528
+      },
+      "overall": {
+        "pearson": -0.0104,
+        "spearman": -0.1384
+      }
+    }
+  },
+  {
+    "metricName": "neg_decay_err",
+    "group": "V0",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.3053,
+        "tfoley": -0.9706,
+        "sa2": -0.3796
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.3239,
+        "tfoley": -1.484,
+        "sa2": -0.6803
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.3506,
+        "tfoley": -1.192,
+        "sa2": -0.656
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -0.4725,
+        "tfoley": -0.8371,
+        "sa2": -0.5039
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -0.5375,
+        "tfoley": -0.678,
+        "sa2": -0.4203
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.5352,
+        "tfoley": -0.6792,
+        "sa2": -0.6107
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.6399,
+        "spearman": 0.5624
+      },
+      "release": {
+        "pearson": 0.6396,
+        "spearman": 0.6298
+      },
+      "overall": {
+        "pearson": 0.7317,
+        "spearman": 0.6484
+      }
+    }
+  },
+  {
+    "metricName": "neg_env_dtw",
+    "group": "V0",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -5.477,
+        "tfoley": -9.949,
+        "sa2": -5.969
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -6.386,
+        "tfoley": -16.33,
+        "sa2": -7.825
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -5.715,
+        "tfoley": -17.28,
+        "sa2": -6.174
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -6.691,
+        "tfoley": -11.09,
+        "sa2": -6.393
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -7.801,
+        "tfoley": -14.14,
+        "sa2": -9.351
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -5.794,
+        "tfoley": -9.698,
+        "sa2": -7.191
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.8206,
+        "spearman": 0.711
+      },
+      "release": {
+        "pearson": 0.7714,
+        "spearman": 0.6804
+      },
+      "overall": {
+        "pearson": 0.8151,
+        "spearman": 0.7393
+      }
+    }
+  },
+  {
+    "metricName": "neg_env_mae",
+    "group": "V0",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.122,
+        "tfoley": -0.2106,
+        "sa2": -0.1549
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.1341,
+        "tfoley": -0.2947,
+        "sa2": -0.1897
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.1369,
+        "tfoley": -0.2664,
+        "sa2": -0.2019
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -0.1729,
+        "tfoley": -0.2048,
+        "sa2": -0.1819
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -0.1219,
+        "tfoley": -0.2005,
+        "sa2": -0.1657
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.1592,
+        "tfoley": -0.1774,
+        "sa2": -0.1814
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.5717,
+        "spearman": 0.3643
+      },
+      "release": {
+        "pearson": 0.6312,
+        "spearman": 0.5596
+      },
+      "overall": {
+        "pearson": 0.6767,
+        "spearman": 0.5276
+      }
+    }
+  },
+  {
+    "metricName": "neg_mel_dtw",
+    "group": "V0",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -4.944,
+        "tfoley": -4.535,
+        "sa2": -3.321
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -5.257,
+        "tfoley": -3.774,
+        "sa2": -3.208
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -6.006,
+        "tfoley": -6.483,
+        "sa2": -4.488
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -4.858,
+        "tfoley": -4.62,
+        "sa2": -3.551
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -4.572,
+        "tfoley": -4.152,
+        "sa2": -2.826
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -2.35,
+        "tfoley": -2.939,
+        "sa2": -2.103
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.1366,
+        "spearman": -0.0134
+      },
+      "release": {
+        "pearson": -0.0417,
+        "spearman": -0.189
+      },
+      "overall": {
+        "pearson": -0.0057,
+        "spearman": -0.1446
+      }
+    }
+  },
+  {
+    "metricName": "neg_onset_err",
+    "group": "V0",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.01277,
+        "tfoley": -0.01858,
+        "sa2": -0.02554
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.01277,
+        "tfoley": -0.02206,
+        "sa2": -0.009288
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.01161,
+        "tfoley": -0.01974,
+        "sa2": -0.006966
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -0.01509,
+        "tfoley": -0.02206,
+        "sa2": -0.01393
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -0.005805,
+        "tfoley": -0.02206,
+        "sa2": -0.01161
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.01161,
+        "tfoley": -0.02322,
+        "sa2": -0.01045
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.1877,
+        "spearman": 0.1087
+      },
+      "release": {
+        "pearson": 0.243,
+        "spearman": 0.1315
+      },
+      "overall": {
+        "pearson": 0.1835,
+        "spearman": 0.0746
+      }
+    }
+  },
+  {
+    "metricName": "neg_peak_err",
+    "group": "V0",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.1602,
+        "tfoley": -0.06385,
+        "sa2": -0.1707
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.2485,
+        "tfoley": -0.2426,
+        "sa2": -0.1498
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.303,
+        "tfoley": -0.2125,
+        "sa2": -0.339
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -0.3332,
+        "tfoley": -0.3123,
+        "sa2": -0.2055
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -0.4098,
+        "tfoley": -0.3727,
+        "sa2": -0.3855
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.2159,
+        "tfoley": -0.2635,
+        "sa2": -0.2229
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.4166,
+        "spearman": 0.5253
+      },
+      "release": {
+        "pearson": 0.249,
+        "spearman": 0.3428
+      },
+      "overall": {
+        "pearson": 0.2977,
+        "spearman": 0.4192
+      }
+    }
+  },
+  {
+    "metricName": "env_corr_attack",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.9035,
+        "tfoley": 0.4194,
+        "sa2": 0.88
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.8522,
+        "tfoley": 0.1472,
+        "sa2": 0.7912
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.8662,
+        "tfoley": 0.1503,
+        "sa2": 0.8964
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.9149,
+        "tfoley": 0.2253,
+        "sa2": 0.8133
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.8529,
+        "tfoley": 0.2062,
+        "sa2": 0.8815
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.9462,
+        "tfoley": 0.01879,
+        "sa2": 0.8489
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.6336,
+        "spearman": 0.5232
+      },
+      "release": {
+        "pearson": 0.6513,
+        "spearman": 0.5782
+      },
+      "overall": {
+        "pearson": 0.5978,
+        "spearman": 0.5421
+      }
+    }
+  },
+  {
+    "metricName": "env_corr_overall",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.8723,
+        "tfoley": 0.7834,
+        "sa2": 0.8504
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.8092,
+        "tfoley": 0.6259,
+        "sa2": 0.8577
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.8337,
+        "tfoley": 0.7236,
+        "sa2": 0.7011
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.7963,
+        "tfoley": 0.7369,
+        "sa2": 0.836
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.8306,
+        "tfoley": 0.6669,
+        "sa2": 0.7947
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.8497,
+        "tfoley": 0.6605,
+        "sa2": 0.7682
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.6613,
+        "spearman": 0.6842
+      },
+      "release": {
+        "pearson": 0.7064,
+        "spearman": 0.7641
+      },
+      "overall": {
+        "pearson": 0.6777,
+        "spearman": 0.7548
+      }
+    }
+  },
+  {
+    "metricName": "env_corr_release",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.888,
+        "tfoley": 0.7538,
+        "sa2": 0.7469
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.8966,
+        "tfoley": 0.4658,
+        "sa2": 0.8687
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.8467,
+        "tfoley": 0.6459,
+        "sa2": 0.7888
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.7975,
+        "tfoley": 0.7141,
+        "sa2": 0.7639
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.6795,
+        "tfoley": 0.5922,
+        "sa2": 0.7757
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.8306,
+        "tfoley": 0.4128,
+        "sa2": 0.7713
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.5756,
+        "spearman": 0.6037
+      },
+      "release": {
+        "pearson": 0.6443,
+        "spearman": 0.6815
+      },
+      "overall": {
+        "pearson": 0.6013,
+        "spearman": 0.6505
+      }
+    }
+  },
+  {
+    "metricName": "mel_cos_mean_attack",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.9652,
+        "tfoley": 0.9606,
+        "sa2": 0.9682
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.9597,
+        "tfoley": 0.9694,
+        "sa2": 0.9719
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.9456,
+        "tfoley": 0.9544,
+        "sa2": 0.9577
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.9482,
+        "tfoley": 0.9488,
+        "sa2": 0.9592
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.9506,
+        "tfoley": 0.9549,
+        "sa2": 0.9693
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.9658,
+        "tfoley": 0.9699,
+        "sa2": 0.9722
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.123,
+        "spearman": 0.0815
+      },
+      "release": {
+        "pearson": -0.0787,
+        "spearman": -0.1115
+      },
+      "overall": {
+        "pearson": -0.0519,
+        "spearman": -0.0805
+      }
+    }
+  },
+  {
+    "metricName": "mel_cos_mean_overall",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.9741,
+        "tfoley": 0.9774,
+        "sa2": 0.9815
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.9714,
+        "tfoley": 0.9831,
+        "sa2": 0.9825
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.9654,
+        "tfoley": 0.9647,
+        "sa2": 0.9712
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.9746,
+        "tfoley": 0.9789,
+        "sa2": 0.9806
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.9753,
+        "tfoley": 0.9769,
+        "sa2": 0.9814
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.98,
+        "tfoley": 0.9857,
+        "sa2": 0.9826
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.1193,
+        "spearman": -0.0299
+      },
+      "release": {
+        "pearson": -0.0165,
+        "spearman": -0.1528
+      },
+      "overall": {
+        "pearson": -0.0104,
+        "spearman": -0.1384
+      }
+    }
+  },
+  {
+    "metricName": "mel_cos_mean_release",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.9666,
+        "tfoley": 0.9703,
+        "sa2": 0.9773
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.9656,
+        "tfoley": 0.9775,
+        "sa2": 0.9797
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.9526,
+        "tfoley": 0.9486,
+        "sa2": 0.9611
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.9657,
+        "tfoley": 0.9681,
+        "sa2": 0.9741
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.9591,
+        "tfoley": 0.96,
+        "sa2": 0.9742
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.9739,
+        "tfoley": 0.9799,
+        "sa2": 0.9773
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.3288,
+        "spearman": 0.2136
+      },
+      "release": {
+        "pearson": 0.1965,
+        "spearman": 0.062
+      },
+      "overall": {
+        "pearson": 0.1826,
+        "spearman": 0.0929
+      }
+    }
+  },
+  {
+    "metricName": "mel_cos_wmean_attack",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.9607,
+        "tfoley": 0.9561,
+        "sa2": 0.9651
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.955,
+        "tfoley": 0.9663,
+        "sa2": 0.9693
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.9413,
+        "tfoley": 0.9487,
+        "sa2": 0.9531
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.9408,
+        "tfoley": 0.9404,
+        "sa2": 0.9554
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.9441,
+        "tfoley": 0.9464,
+        "sa2": 0.9651
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.9596,
+        "tfoley": 0.9671,
+        "sa2": 0.9703
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.1646,
+        "spearman": 0.1641
+      },
+      "release": {
+        "pearson": -0.0631,
+        "spearman": -0.0836
+      },
+      "overall": {
+        "pearson": -0.0292,
+        "spearman": -0.0237
+      }
+    }
+  },
+  {
+    "metricName": "mel_cos_wmean_overall",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.9647,
+        "tfoley": 0.9687,
+        "sa2": 0.9748
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.9609,
+        "tfoley": 0.9757,
+        "sa2": 0.9773
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.9513,
+        "tfoley": 0.9498,
+        "sa2": 0.9612
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.9616,
+        "tfoley": 0.9653,
+        "sa2": 0.9718
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.9646,
+        "tfoley": 0.9663,
+        "sa2": 0.9759
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.9703,
+        "tfoley": 0.9778,
+        "sa2": 0.9764
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.1674,
+        "spearman": 0.0444
+      },
+      "release": {
+        "pearson": -0.0035,
+        "spearman": -0.1425
+      },
+      "overall": {
+        "pearson": 0.0039,
+        "spearman": -0.0929
+      }
+    }
+  },
+  {
+    "metricName": "mel_cos_wmean_release",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.9635,
+        "tfoley": 0.9667,
+        "sa2": 0.9744
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.9608,
+        "tfoley": 0.9734,
+        "sa2": 0.977
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.9488,
+        "tfoley": 0.9437,
+        "sa2": 0.9578
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.9622,
+        "tfoley": 0.9633,
+        "sa2": 0.9716
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.9562,
+        "tfoley": 0.9557,
+        "sa2": 0.9716
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.9714,
+        "tfoley": 0.9777,
+        "sa2": 0.976
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.3498,
+        "spearman": 0.2693
+      },
+      "release": {
+        "pearson": 0.1961,
+        "spearman": 0.0971
+      },
+      "overall": {
+        "pearson": 0.1954,
+        "spearman": 0.1384
+      }
+    }
+  },
+  {
+    "metricName": "neg_decay_err",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.3053,
+        "tfoley": -0.9706,
+        "sa2": -0.3796
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.3239,
+        "tfoley": -1.484,
+        "sa2": -0.6803
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.3506,
+        "tfoley": -1.192,
+        "sa2": -0.656
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -0.4725,
+        "tfoley": -0.8371,
+        "sa2": -0.5039
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -0.5375,
+        "tfoley": -0.678,
+        "sa2": -0.4203
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.5352,
+        "tfoley": -0.6792,
+        "sa2": -0.6107
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.6399,
+        "spearman": 0.5624
+      },
+      "release": {
+        "pearson": 0.6396,
+        "spearman": 0.6298
+      },
+      "overall": {
+        "pearson": 0.7317,
+        "spearman": 0.6484
+      }
+    }
+  },
+  {
+    "metricName": "neg_env_dtw_attack",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -1.423,
+        "tfoley": -3.99,
+        "sa2": -1.714
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -2.54,
+        "tfoley": -7.451,
+        "sa2": -4.154
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -2.241,
+        "tfoley": -8.509,
+        "sa2": -2.528
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -2.895,
+        "tfoley": -5.507,
+        "sa2": -3.226
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -3.427,
+        "tfoley": -8.676,
+        "sa2": -4.331
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -1.457,
+        "tfoley": -5.119,
+        "sa2": -2.031
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.7971,
+        "spearman": 0.7049
+      },
+      "release": {
+        "pearson": 0.7386,
+        "spearman": 0.6278
+      },
+      "overall": {
+        "pearson": 0.7411,
+        "spearman": 0.6649
+      }
+    }
+  },
+  {
+    "metricName": "neg_env_dtw_overall",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -5.477,
+        "tfoley": -9.949,
+        "sa2": -5.969
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -6.386,
+        "tfoley": -16.33,
+        "sa2": -7.825
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -5.715,
+        "tfoley": -17.28,
+        "sa2": -6.174
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -6.691,
+        "tfoley": -11.09,
+        "sa2": -6.393
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -7.801,
+        "tfoley": -14.14,
+        "sa2": -9.351
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -5.794,
+        "tfoley": -9.698,
+        "sa2": -7.191
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.8206,
+        "spearman": 0.711
+      },
+      "release": {
+        "pearson": 0.7714,
+        "spearman": 0.6804
+      },
+      "overall": {
+        "pearson": 0.8151,
+        "spearman": 0.7393
+      }
+    }
+  },
+  {
+    "metricName": "neg_env_dtw_release",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -2.885,
+        "tfoley": -4.434,
+        "sa2": -3.567
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -2.653,
+        "tfoley": -6.347,
+        "sa2": -2.83
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -3.275,
+        "tfoley": -5.293,
+        "sa2": -3.547
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -2.845,
+        "tfoley": -4.629,
+        "sa2": -2.883
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -4.155,
+        "tfoley": -4.93,
+        "sa2": -3.123
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -2.878,
+        "tfoley": -3.958,
+        "sa2": -3.015
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.7202,
+        "spearman": 0.614
+      },
+      "release": {
+        "pearson": 0.7068,
+        "spearman": 0.7352
+      },
+      "overall": {
+        "pearson": 0.7759,
+        "spearman": 0.729
+      }
+    }
+  },
+  {
+    "metricName": "neg_env_mae_attack",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.2007,
+        "tfoley": -0.2902,
+        "sa2": -0.1916
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.2332,
+        "tfoley": -0.3037,
+        "sa2": -0.2147
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.2106,
+        "tfoley": -0.3298,
+        "sa2": -0.2616
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -0.1785,
+        "tfoley": -0.3334,
+        "sa2": -0.2128
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -0.2135,
+        "tfoley": -0.2911,
+        "sa2": -0.2233
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.1102,
+        "tfoley": -0.3884,
+        "sa2": -0.1821
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.5119,
+        "spearman": 0.5872
+      },
+      "release": {
+        "pearson": 0.5654,
+        "spearman": 0.5772
+      },
+      "overall": {
+        "pearson": 0.483,
+        "spearman": 0.5741
+      }
+    }
+  },
+  {
+    "metricName": "neg_env_mae_overall",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.122,
+        "tfoley": -0.2106,
+        "sa2": -0.1549
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.1341,
+        "tfoley": -0.2947,
+        "sa2": -0.1897
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.1369,
+        "tfoley": -0.2664,
+        "sa2": -0.2019
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -0.1729,
+        "tfoley": -0.2048,
+        "sa2": -0.1819
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -0.1219,
+        "tfoley": -0.2005,
+        "sa2": -0.1657
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.1592,
+        "tfoley": -0.1774,
+        "sa2": -0.1814
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.5717,
+        "spearman": 0.3643
+      },
+      "release": {
+        "pearson": 0.6312,
+        "spearman": 0.5596
+      },
+      "overall": {
+        "pearson": 0.6767,
+        "spearman": 0.5276
+      }
+    }
+  },
+  {
+    "metricName": "neg_env_mae_release",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.09766,
+        "tfoley": -0.2692,
+        "sa2": -0.1283
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.1021,
+        "tfoley": -0.3532,
+        "sa2": -0.1249
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.09178,
+        "tfoley": -0.2807,
+        "sa2": -0.1206
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -0.1308,
+        "tfoley": -0.2442,
+        "sa2": -0.1627
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -0.1968,
+        "tfoley": -0.2879,
+        "sa2": -0.1499
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.1806,
+        "tfoley": -0.3014,
+        "sa2": -0.1922
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.6879,
+        "spearman": 0.6821
+      },
+      "release": {
+        "pearson": 0.7126,
+        "spearman": 0.6722
+      },
+      "overall": {
+        "pearson": 0.7152,
+        "spearman": 0.6835
+      }
+    }
+  },
+  {
+    "metricName": "neg_mel_dtw_attack",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.8714,
+        "tfoley": -1.006,
+        "sa2": -0.9248
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.9869,
+        "tfoley": -0.7916,
+        "sa2": -0.7054
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.9948,
+        "tfoley": -1.232,
+        "sa2": -0.9683
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -1.418,
+        "tfoley": -1.366,
+        "sa2": -1.103
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -1.047,
+        "tfoley": -1.078,
+        "sa2": -0.7915
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.7019,
+        "tfoley": -1.165,
+        "sa2": -0.5983
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.078,
+        "spearman": 0.1414
+      },
+      "release": {
+        "pearson": -0.0804,
+        "spearman": 0.0021
+      },
+      "overall": {
+        "pearson": -0.128,
+        "spearman": -0.0382
+      }
+    }
+  },
+  {
+    "metricName": "neg_mel_dtw_overall",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -4.944,
+        "tfoley": -4.535,
+        "sa2": -3.321
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -5.257,
+        "tfoley": -3.774,
+        "sa2": -3.208
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -6.006,
+        "tfoley": -6.483,
+        "sa2": -4.488
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -4.858,
+        "tfoley": -4.62,
+        "sa2": -3.551
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -4.572,
+        "tfoley": -4.152,
+        "sa2": -2.826
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -2.35,
+        "tfoley": -2.939,
+        "sa2": -2.103
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.1366,
+        "spearman": -0.0134
+      },
+      "release": {
+        "pearson": -0.0417,
+        "spearman": -0.189
+      },
+      "overall": {
+        "pearson": -0.0057,
+        "spearman": -0.1446
+      }
+    }
+  },
+  {
+    "metricName": "neg_mel_dtw_release",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -4.424,
+        "tfoley": -3.067,
+        "sa2": -2.773
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -5.88,
+        "tfoley": -3.457,
+        "sa2": -2.916
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -5.596,
+        "tfoley": -5.901,
+        "sa2": -4.212
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -4.427,
+        "tfoley": -3.29,
+        "sa2": -2.926
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -4.56,
+        "tfoley": -2.158,
+        "sa2": -2.304
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -2.02,
+        "tfoley": -1.329,
+        "sa2": -1.612
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.0414,
+        "spearman": -0.0175
+      },
+      "release": {
+        "pearson": -0.2164,
+        "spearman": -0.2251
+      },
+      "overall": {
+        "pearson": -0.0926,
+        "spearman": -0.1177
+      }
+    }
+  },
+  {
+    "metricName": "neg_onset_err",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.01277,
+        "tfoley": -0.01858,
+        "sa2": -0.02554
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.01277,
+        "tfoley": -0.02206,
+        "sa2": -0.009288
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.01161,
+        "tfoley": -0.01974,
+        "sa2": -0.006966
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -0.01509,
+        "tfoley": -0.02206,
+        "sa2": -0.01393
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -0.005805,
+        "tfoley": -0.02206,
+        "sa2": -0.01161
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.01161,
+        "tfoley": -0.02322,
+        "sa2": -0.01045
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.1877,
+        "spearman": 0.1006
+      },
+      "release": {
+        "pearson": 0.243,
+        "spearman": 0.1193
+      },
+      "overall": {
+        "pearson": 0.1835,
+        "spearman": 0.0591
+      }
+    }
+  },
+  {
+    "metricName": "neg_peak_err",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.1602,
+        "tfoley": -0.06385,
+        "sa2": -0.1707
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.2485,
+        "tfoley": -0.2426,
+        "sa2": -0.1498
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.303,
+        "tfoley": -0.2125,
+        "sa2": -0.339
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -0.3332,
+        "tfoley": -0.3123,
+        "sa2": -0.2055
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -0.4098,
+        "tfoley": -0.3727,
+        "sa2": -0.3855
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.2159,
+        "tfoley": -0.2635,
+        "sa2": -0.2229
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.4166,
+        "spearman": 0.5253
+      },
+      "release": {
+        "pearson": 0.249,
+        "spearman": 0.3428
+      },
+      "overall": {
+        "pearson": 0.2977,
+        "spearman": 0.4192
+      }
+    }
+  },
+  {
+    "metricName": "neg_rms_dtw_attack",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -3.197,
+        "tfoley": -3.203,
+        "sa2": -4.756
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -2.732,
+        "tfoley": -3.727,
+        "sa2": -4.339
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -1.845,
+        "tfoley": -4.267,
+        "sa2": -2.635
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -4.373,
+        "tfoley": -4.553,
+        "sa2": -4.692
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -4.905,
+        "tfoley": -4.588,
+        "sa2": -7.083
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -3.638,
+        "tfoley": -3.743,
+        "sa2": -5.36
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.2037,
+        "spearman": 0.2054
+      },
+      "release": {
+        "pearson": 0.2624,
+        "spearman": 0.2261
+      },
+      "overall": {
+        "pearson": 0.2617,
+        "spearman": 0.2581
+      }
+    }
+  },
+  {
+    "metricName": "neg_rms_dtw_overall",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -6.544,
+        "tfoley": -5.22,
+        "sa2": -6.12
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -5.626,
+        "tfoley": -6.082,
+        "sa2": -5.653
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -5.653,
+        "tfoley": -11.05,
+        "sa2": -5.609
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -8.006,
+        "tfoley": -6.865,
+        "sa2": -6.226
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -10.74,
+        "tfoley": -10.18,
+        "sa2": -10.05
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -10.02,
+        "tfoley": -7.654,
+        "sa2": -9.607
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.5752,
+        "spearman": 0.5686
+      },
+      "release": {
+        "pearson": 0.4879,
+        "spearman": 0.4326
+      },
+      "overall": {
+        "pearson": 0.4677,
+        "spearman": 0.4151
+      }
+    }
+  },
+  {
+    "metricName": "neg_rms_dtw_release",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -6.754,
+        "tfoley": -6.961,
+        "sa2": -4.244
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -6.849,
+        "tfoley": -11.67,
+        "sa2": -2.969
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -5.667,
+        "tfoley": -11.21,
+        "sa2": -4.354
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -7.707,
+        "tfoley": -9.728,
+        "sa2": -6.31
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -15.15,
+        "tfoley": -9.871,
+        "sa2": -11.33
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -9.084,
+        "tfoley": -6.615,
+        "sa2": -6.85
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.6878,
+        "spearman": 0.742
+      },
+      "release": {
+        "pearson": 0.4603,
+        "spearman": 0.4966
+      },
+      "overall": {
+        "pearson": 0.6157,
+        "spearman": 0.6557
+      }
+    }
+  },
+  {
+    "metricName": "neg_rms_mae_attack",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.3383,
+        "tfoley": -0.2407,
+        "sa2": -0.3486
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.345,
+        "tfoley": -0.2593,
+        "sa2": -0.3323
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.332,
+        "tfoley": -0.2489,
+        "sa2": -0.462
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -0.3043,
+        "tfoley": -0.3045,
+        "sa2": -0.3386
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -0.308,
+        "tfoley": -0.2029,
+        "sa2": -0.398
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.2098,
+        "tfoley": -0.3016,
+        "sa2": -0.281
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": -0.4138,
+        "spearman": -0.4757
+      },
+      "release": {
+        "pearson": -0.3074,
+        "spearman": -0.414
+      },
+      "overall": {
+        "pearson": -0.3304,
+        "spearman": -0.4109
+      }
+    }
+  },
+  {
+    "metricName": "neg_rms_mae_overall",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.1268,
+        "tfoley": -0.06675,
+        "sa2": -0.1437
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.1363,
+        "tfoley": -0.09249,
+        "sa2": -0.1181
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.1371,
+        "tfoley": -0.1083,
+        "sa2": -0.157
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -0.1388,
+        "tfoley": -0.07606,
+        "sa2": -0.1263
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -0.1753,
+        "tfoley": -0.1078,
+        "sa2": -0.1606
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.1498,
+        "tfoley": -0.0829,
+        "sa2": -0.149
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": -0.1874,
+        "spearman": -0.1207
+      },
+      "release": {
+        "pearson": -0.2452,
+        "spearman": -0.1673
+      },
+      "overall": {
+        "pearson": -0.1918,
+        "spearman": -0.1043
+      }
+    }
+  },
+  {
+    "metricName": "neg_rms_mae_release",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -0.2433,
+        "tfoley": -0.2105,
+        "sa2": -0.2059
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -0.1738,
+        "tfoley": -0.2759,
+        "sa2": -0.1551
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -0.1668,
+        "tfoley": -0.1838,
+        "sa2": -0.1637
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -0.2618,
+        "tfoley": -0.2081,
+        "sa2": -0.2395
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -0.3406,
+        "tfoley": -0.2355,
+        "sa2": -0.282
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -0.3266,
+        "tfoley": -0.2556,
+        "sa2": -0.3384
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.1409,
+        "spearman": 0.2466
+      },
+      "release": {
+        "pearson": 0.1362,
+        "spearman": 0.1776
+      },
+      "overall": {
+        "pearson": 0.1875,
+        "spearman": 0.2292
+      }
+    }
+  },
+  {
+    "metricName": "rms_corr_attack",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.6323,
+        "tfoley": 0.5419,
+        "sa2": 0.8123
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.707,
+        "tfoley": 0.5613,
+        "sa2": 0.7721
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.7696,
+        "tfoley": 0.5702,
+        "sa2": 0.8122
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.842,
+        "tfoley": 0.5006,
+        "sa2": 0.7583
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.8336,
+        "tfoley": 0.5692,
+        "sa2": 0.588
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.7595,
+        "tfoley": 0.2589,
+        "sa2": 0.7781
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.3905,
+        "spearman": 0.4138
+      },
+      "release": {
+        "pearson": 0.4655,
+        "spearman": 0.444
+      },
+      "overall": {
+        "pearson": 0.3663,
+        "spearman": 0.3903
+      }
+    }
+  },
+  {
+    "metricName": "rms_corr_overall",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.6898,
+        "tfoley": 0.8144,
+        "sa2": 0.6593
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.6099,
+        "tfoley": 0.7361,
+        "sa2": 0.7348
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.6849,
+        "tfoley": 0.8105,
+        "sa2": 0.5773
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.6332,
+        "tfoley": 0.7648,
+        "sa2": 0.7363
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.5658,
+        "tfoley": 0.7088,
+        "sa2": 0.5082
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.555,
+        "tfoley": 0.6911,
+        "sa2": 0.6354
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": -0.1034,
+        "spearman": -0.0382
+      },
+      "release": {
+        "pearson": -0.2231,
+        "spearman": -0.1993
+      },
+      "overall": {
+        "pearson": -0.137,
+        "spearman": -0.1094
+      }
+    }
+  },
+  {
+    "metricName": "rms_corr_release",
+    "group": "V1",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.6427,
+        "tfoley": 0.5627,
+        "sa2": 0.7112
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.7622,
+        "tfoley": 0.708,
+        "sa2": 0.8256
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.756,
+        "tfoley": 0.6126,
+        "sa2": 0.8071
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.6358,
+        "tfoley": 0.5936,
+        "sa2": 0.7178
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.5056,
+        "tfoley": 0.5087,
+        "sa2": 0.5229
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.4022,
+        "tfoley": 0.5066,
+        "sa2": 0.5279
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": 0.3391,
+        "spearman": 0.4985
+      },
+      "release": {
+        "pearson": 0.3224,
+        "spearman": 0.3934
+      },
+      "overall": {
+        "pearson": 0.282,
+        "spearman": 0.4078
+      }
+    }
+  },
+  {
+    "metricName": "panns_cos_ms_attack",
+    "group": "V2",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.6178,
+        "tfoley": 0.6393,
+        "sa2": 0.6533
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.6187,
+        "tfoley": 0.672,
+        "sa2": 0.6651
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.581,
+        "tfoley": 0.6355,
+        "sa2": 0.6025
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.5962,
+        "tfoley": 0.6163,
+        "sa2": 0.6361
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.6398,
+        "tfoley": 0.6481,
+        "sa2": 0.6317
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.6929,
+        "tfoley": 0.7264,
+        "sa2": 0.7013
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": -0.217,
+        "spearman": -0.2528
+      },
+      "release": {
+        "pearson": -0.3335,
+        "spearman": -0.3077
+      },
+      "overall": {
+        "pearson": -0.2698,
+        "spearman": -0.2891
+      }
+    }
+  },
+  {
+    "metricName": "panns_cos_ms_ovl",
+    "group": "V2",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.6396,
+        "tfoley": 0.6631,
+        "sa2": 0.6919
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.6395,
+        "tfoley": 0.7035,
+        "sa2": 0.7177
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.6128,
+        "tfoley": 0.6726,
+        "sa2": 0.6665
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.6048,
+        "tfoley": 0.6649,
+        "sa2": 0.6605
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.6755,
+        "tfoley": 0.6741,
+        "sa2": 0.696
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.7308,
+        "tfoley": 0.7541,
+        "sa2": 0.746
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": -0.2873,
+        "spearman": -0.4076
+      },
+      "release": {
+        "pearson": -0.4441,
+        "spearman": -0.4966
+      },
+      "overall": {
+        "pearson": -0.389,
+        "spearman": -0.4781
+      }
+    }
+  },
+  {
+    "metricName": "panns_cos_ms_release",
+    "group": "V2",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": 0.6046,
+        "tfoley": 0.6516,
+        "sa2": 0.661
+      },
+      {
+        "speaker": "2402",
+        "pronounse": 0.6247,
+        "tfoley": 0.6883,
+        "sa2": 0.6944
+      },
+      {
+        "speaker": "2403",
+        "pronounse": 0.5775,
+        "tfoley": 0.6688,
+        "sa2": 0.6244
+      },
+      {
+        "speaker": "2404",
+        "pronounse": 0.5917,
+        "tfoley": 0.6403,
+        "sa2": 0.6423
+      },
+      {
+        "speaker": "2405",
+        "pronounse": 0.6288,
+        "tfoley": 0.6724,
+        "sa2": 0.6315
+      },
+      {
+        "speaker": "2406",
+        "pronounse": 0.6825,
+        "tfoley": 0.7285,
+        "sa2": 0.7074
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": -0.3673,
+        "spearman": -0.3622
+      },
+      "release": {
+        "pearson": -0.491,
+        "spearman": -0.4646
+      },
+      "overall": {
+        "pearson": -0.4203,
+        "spearman": -0.413
+      }
+    }
+  },
+  {
+    "metricName": "panns_neg_l2_ms_attack",
+    "group": "V2",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -11.02,
+        "tfoley": -10.41,
+        "sa2": -10.35
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -11.26,
+        "tfoley": -9.735,
+        "sa2": -10.08
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -11.98,
+        "tfoley": -10.36,
+        "sa2": -11.07
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -11.89,
+        "tfoley": -11.06,
+        "sa2": -10.95
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -10.69,
+        "tfoley": -10.29,
+        "sa2": -10.83
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -9.148,
+        "tfoley": -8.259,
+        "sa2": -9.059
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": -0.2852,
+        "spearman": -0.3395
+      },
+      "release": {
+        "pearson": -0.4286,
+        "spearman": -0.4522
+      },
+      "overall": {
+        "pearson": -0.3471,
+        "spearman": -0.4027
+      }
+    }
+  },
+  {
+    "metricName": "panns_neg_l2_ms_ovl",
+    "group": "V2",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -10.46,
+        "tfoley": -9.846,
+        "sa2": -9.362
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -10.6,
+        "tfoley": -9.188,
+        "sa2": -8.99
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -11.13,
+        "tfoley": -9.773,
+        "sa2": -9.655
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -11.72,
+        "tfoley": -10.27,
+        "sa2": -10.49
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -10.02,
+        "tfoley": -9.986,
+        "sa2": -9.672
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -8.324,
+        "tfoley": -7.898,
+        "sa2": -8.176
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": -0.2566,
+        "spearman": -0.2652
+      },
+      "release": {
+        "pearson": -0.434,
+        "spearman": -0.4522
+      },
+      "overall": {
+        "pearson": -0.3675,
+        "spearman": -0.4037
+      }
+    }
+  },
+  {
+    "metricName": "panns_neg_l2_ms_release",
+    "group": "V2",
+    "description": "",
+    "values": [
+      {
+        "speaker": "2401",
+        "pronounse": -11.0,
+        "tfoley": -9.856,
+        "sa2": -9.625
+      },
+      {
+        "speaker": "2402",
+        "pronounse": -10.59,
+        "tfoley": -9.24,
+        "sa2": -9.25
+      },
+      {
+        "speaker": "2403",
+        "pronounse": -11.59,
+        "tfoley": -9.349,
+        "sa2": -10.26
+      },
+      {
+        "speaker": "2404",
+        "pronounse": -11.62,
+        "tfoley": -10.14,
+        "sa2": -10.42
+      },
+      {
+        "speaker": "2405",
+        "pronounse": -10.62,
+        "tfoley": -9.595,
+        "sa2": -10.4
+      },
+      {
+        "speaker": "2406",
+        "pronounse": -9.375,
+        "tfoley": -8.332,
+        "sa2": -8.903
+      }
+    ],
+    "correlations": {
+      "attack": {
+        "pearson": -0.4064,
+        "spearman": -0.42
+      },
+      "release": {
+        "pearson": -0.5537,
+        "spearman": -0.5741
+      },
+      "overall": {
+        "pearson": -0.4731,
+        "spearman": -0.5142
+      }
+    }
+  }
+]
